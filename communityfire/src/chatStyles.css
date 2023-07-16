@@ -1,0 +1,94 @@
+/* CSS code for iMessage-like chat design */
+
+/* Chat container */
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 20px;
+    background-color: #f2f2f2;
+  }
+  
+  /* Chat header */
+  .chat-header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+  }
+  
+  /* Chat messages */
+  .chat-messages {
+    flex-grow: 1;
+    overflow-y: auto;
+    padding-bottom: 20px;
+  }
+  
+  /* Chat message */
+  .chat-message {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 10px;
+    padding: 10px;
+    max-width: 80%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Sender name */
+  .sender-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  /* Message content */
+  .message-content {
+    word-wrap: break-word;
+  }
+  
+  /* Message input form */
+  .message-form {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  /* Message input */
+  .message-input {
+    flex-grow: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Send button */
+  .send-button {
+    margin-left: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  
+  .sign-in-button,
+  .sign-out-button,
+  .send-button {
+    background-color: #007bff; /* Replace with the desired color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .sign-in-button:hover,
+  .sign-out-button:hover,
+  .send-button:hover {
+    background-color: #0056b3; /* Replace with the desired hover color */
+  }
